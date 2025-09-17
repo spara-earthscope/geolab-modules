@@ -38,27 +38,27 @@
             {
                 "answer": "git add .",
                 "correct": true,
-                "feedback": "Correct."
+                "feedback": "Correct, you can add multiple files."
             },
             {
                 "answer": "git add file_name",
                 "correct": true,
-                "feedback": "Correct."
+                "feedback": "Correct, you can add a single file."
             },
             {
                 "answer": "git put file_name",
                 "correct": false,
-                "feedback": "Incorrect."
+                "feedback": "Incorrect, put is not a command."
             },
             {
                 "answer": "git install file_name",
                 "correct": false,
-                "feedback": "Incorrect."
+                "feedback": "Incorrect, install is not a command."
             },
             {
                 "answer": "git put .",
                 "correct": false,
-                "feedback": "Incorrect."
+                "feedback": "Incorrect, put is not a command."
             }
         ]
     },
@@ -79,7 +79,7 @@
             {
                 "answer": "Creates a remote repository on GitHub.",
                 "correct": false,
-                "feedback": "Creates a repository on your computer."
+                "feedback": "It creates a local repository on your computer."
             },
             {
                 "answer": "Configures your user name and email.",
